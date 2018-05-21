@@ -170,15 +170,15 @@ input:focus, textarea:focus {
 }
 
 .training {
-  top: 80px;
-}
-
-.batch {
   top: 140px;
 }
 
-.dashboard {
+.batch {
   top: 200px;
+}
+
+.dashboard {
+  top: 80px;
 }
 
 .download {
