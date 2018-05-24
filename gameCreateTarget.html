@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="VITA-IVR System">
+  <meta name="description" content="RNR">
   <meta name="author" content="Rohit">
   <link rel="shortcut icon" href="#">
 
-  <title>Vita-IVR</title>
+  <title>RNR</title>
 
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="./assets/css/bootstrap-theme.css" rel="stylesheet">
@@ -59,28 +59,31 @@
 
 
     <aside>
-        <div class="container">
-          <div class="row">
-            <div class="sidenav">
-              <a class="nugget menuActiveSidebar" href="./game.html">Game
-                <i class="fa fa-gavel rightFloat"></i>
-              </a>
-              <a class="training" href="./monthlyTarget.html">Monthly Target
-                <i class="fa fa-file-o rightFloat"></i>
-              </a>
-              <a class="batch" href="./weeklyActuals.html">Weekly Actual
-                <i class="fa fa-file-text rightFloat"></i>
-              </a>
-              <a class="dashboard" href="./playerDetails.html">Player Details
-                <i class="fa fa-users rightFloat"></i>
-              </a>
-              <a class="download" href="./downloadDetails.html">Details
-                <i class="fa fa-download rightFloat"></i>
-              </a>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="sidenav">
+            <a class="nugget menuActiveSidebar" href="./index.html">Game
+              <i class="fa fa-gavel rightFloat"></i>
+            </a>
+            <a class="dashboard" href="./playerDetails.html">Player Details
+              <i class="fa fa-users rightFloat"></i>
+            </a>
+            <a class="training" href="./monthlyTarget.html">Monthly Target
+              <i class="fa fa-file-o rightFloat"></i>
+            </a>
+            <a class="batch" href="./weeklyActuals.html">Weekly Actual
+              <i class="fa fa-file-text rightFloat"></i>
+            </a>
+            <a class="download" href="./downloadDetails.html">Details
+              <i class="fa fa-download rightFloat"></i>
+            </a>
+            <a class="update" href="./updateDetails.html">Update Details
+              <i class="fa fa-wrench rightFloat" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
-      </aside>
+      </div>
+    </aside>
 
     <section class="wrapper">
 
@@ -124,47 +127,47 @@
 
       <div class="container col-sm-12" style="min-height:550px">
 
-          <div class="col-sm-12 center">
-              <div class="col-sm-offset-3 col-sm-6 col-sm-offset-3 row bs-wizard animated flipInX" style="border-bottom:0;">
-    
-                <div class="col-xs-3 bs-wizard-step complete">
-                  <div class="progress">
-                    <div class="progress-bar"></div>
-                  </div>
-                  <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">Profile Variable</div>
-                </div>
-    
-                <div class="col-xs-3 bs-wizard-step active">
-                  <div class="progress">
-                    <div class="progress-bar"></div>
-                  </div>
-                  <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">Target variable</div>
-                </div>
-    
-                <div class="col-xs-3 bs-wizard-step disabled">
-                  <div class="progress">
-                    <div class="progress-bar"></div>
-                  </div>
-                  <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">Actual Variable</div>
-                </div>
-    
-                <div class="col-xs-3 bs-wizard-step disabled">
-                  <div class="progress">
-                    <div class="progress-bar"></div>
-                  </div>
-                  <a href="#" class="bs-wizard-dot"></a>
-                  <div class="bs-wizard-info text-center">Derived Variable</div>
-                </div>
-    
+        <div class="col-sm-12 center">
+          <div class="col-sm-offset-3 col-sm-6 col-sm-offset-3 row bs-wizard animated flipInX" style="border-bottom:0;">
+
+            <div class="col-xs-3 bs-wizard-step complete">
+              <div class="progress">
+                <div class="progress-bar"></div>
               </div>
+              <a href="#" class="bs-wizard-dot"></a>
+              <div class="bs-wizard-info text-center">Profile Variable</div>
             </div>
-            <br/>
+
+            <div class="col-xs-3 bs-wizard-step active">
+              <div class="progress">
+                <div class="progress-bar"></div>
+              </div>
+              <a href="#" class="bs-wizard-dot"></a>
+              <div class="bs-wizard-info text-center">Target variable</div>
+            </div>
+
+            <div class="col-xs-3 bs-wizard-step disabled">
+              <div class="progress">
+                <div class="progress-bar"></div>
+              </div>
+              <a href="#" class="bs-wizard-dot"></a>
+              <div class="bs-wizard-info text-center">Actual Variable</div>
+            </div>
+
+            <div class="col-xs-3 bs-wizard-step disabled">
+              <div class="progress">
+                <div class="progress-bar"></div>
+              </div>
+              <a href="#" class="bs-wizard-dot"></a>
+              <div class="bs-wizard-info text-center">Derived Variable</div>
+            </div>
+
+          </div>
+        </div>
+        <br/>
 
         <div class="col-sm=12">
-          <h4 class="animated zoomIn" style="margin-top: 7%;text-align:center; font-size:30px; color:black">Add Target Variables</h4>
+          <h4 class="animated zoomIn" style="margin-top: 8%;text-align:center; font-size:30px; color:black">Add Target Variables</h4>
           <hr>
         </div>
 
@@ -186,13 +189,21 @@
             <thead>
               <tr>
                 <th>
-                  <h4><strong>Name</strong></h4>
+                  <h4>
+                    <strong>Name</strong>
+                  </h4>
                 </th>
                 <th>
-                  <h4><strong>Value</strong></h4>
+                  <h4>
+                    <strong>Value</strong>
+                  </h4>
                 </th>
                 <th>
-                  <h4><strong><i class="fa fa-plus-circle" aria-hidden="true" style="color:Blue;font-size:26px;margin-left:25%"></i></strong></h4>
+                  <h4>
+                    <strong>
+                      <i class="fa fa-plus-circle" aria-hidden="true" style="color:Blue;font-size:26px;margin-left:25%"></i>
+                    </strong>
+                  </h4>
                 </th>
               </tr>
             </thead>
@@ -248,7 +259,9 @@
 
         <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2" style="margin-top:5%">
           <button type="button" class="animated bounce createTopicLeftDefault  btn" id="Cancel">Cancel</button>
-          <a href="./gameCreateActual.html"><button type="submit" class="animated bounce createTopicLeft btn btn-success" id="createProfileVariables">Add Target Variables</button></a>
+          <a href="./gameCreateActual.html">
+            <button type="submit" class="animated bounce createTopicLeft btn btn-success" id="createProfileVariables">Add Target Variables</button>
+          </a>
         </div>
 
       </div>

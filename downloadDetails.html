@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="VITA-IVR System">
+  <meta name="description" content="RNR">
   <meta name="author" content="Rohit">
   <link rel="shortcut icon" href="#">
 
@@ -44,7 +44,6 @@
         }
       }
     }
-
   </script>
 
   <style>
@@ -94,7 +93,6 @@
     #detailsTable tr:hover {
       background-color: #F6DDCC;
     }
-
   </style>
 
 </head>
@@ -131,8 +129,11 @@
       <div class="container">
         <div class="row">
           <div class="sidenav">
-            <a class="nugget menuActiveSidebar" href="./game.html">Game
+            <a class="nugget " href="./index.html">Game
               <i class="fa fa-gavel rightFloat"></i>
+            </a>
+            <a class="dashboard" href="./playerDetails.html">Player Details
+              <i class="fa fa-users rightFloat"></i>
             </a>
             <a class="training" href="./monthlyTarget.html">Monthly Target
               <i class="fa fa-file-o rightFloat"></i>
@@ -140,11 +141,11 @@
             <a class="batch" href="./weeklyActuals.html">Weekly Actual
               <i class="fa fa-file-text rightFloat"></i>
             </a>
-            <a class="dashboard" href="./playerDetails.html">Player Details
-              <i class="fa fa-users rightFloat"></i>
-            </a>
-            <a class="download" href="./downloadDetails.html">Details
+            <a class="download menuActiveSidebar" href="./downloadDetails.html">Details
               <i class="fa fa-download rightFloat"></i>
+            </a>
+            <a class="update" href="./updateDetails.html">Update Details
+              <i class="fa fa-wrench rightFloat" aria-hidden="true"></i>
             </a>
           </div>
         </div>
@@ -171,22 +172,22 @@
           <table id="detailsTable" class="col-sm-10 table">
             <tr class="tableHeader">
               <th style="width:10%;">#</th>
-              <th style="width:70%;">Name</th>
+              <th style="width:50%;">Name</th>
+              <th style="width:20%;">Status</th>
               <th style="width:20%;">Action</th>
             </tr>
             <tr>
               <td>1</td>
               <td>PragatiApril 2018</td>
+              <td style="color:#154360">Active</td>
               <td>
-                <a href="./gameCreateDetails.html">
-                  <i class="fa fa-eye fa-1x" aria-hidden="true" style="color:black;"></i>
-                </a>
-                <i class="fa fa-download fa-1x" aria-hidden="true" style="color:black;margin-left:20%"></i>
+                <button type="button" class="btn btn-primary">Calculate Payout</button>
               </td>
             </tr>
             <tr>
               <td>2</td>
               <td>PragatiMay 2018</td>
+              <td style="color:#186a3b">Completed</td>
               <td>
                 <a href="./gameCreateDetails.html">
                   <i class="fa fa-eye fa-1x" aria-hidden="true" style="color:black;"></i>

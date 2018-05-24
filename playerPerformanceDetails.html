@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="VITA-IVR System">
+  <meta name="description" content="RNR">
   <meta name="author" content="Rohit">
   <link rel="shortcut icon" href="#">
 
-  <title>Vita-IVR</title>
+  <title>RNR</title>
 
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="./assets/css/bootstrap-theme.css" rel="stylesheet">
@@ -80,7 +80,6 @@
         opacity: 1;
       }
     }
-
   </style>
 
 
@@ -115,28 +114,31 @@
 
 
     <aside>
-        <div class="container">
-          <div class="row">
-            <div class="sidenav">
-              <a class="nugget menuActiveSidebar" href="./game.html">Game
-                <i class="fa fa-gavel rightFloat"></i>
-              </a>
-              <a class="training" href="./monthlyTarget.html">Monthly Target
-                <i class="fa fa-file-o rightFloat"></i>
-              </a>
-              <a class="batch" href="./weeklyActuals.html">Weekly Actual
-                <i class="fa fa-file-text rightFloat"></i>
-              </a>
-              <a class="dashboard" href="./playerDetails.html">Player Details
-                <i class="fa fa-users rightFloat"></i>
-              </a>
-              <a class="download" href="./downloadDetails.html">Details
-                <i class="fa fa-download rightFloat"></i>
-              </a>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="sidenav">
+            <a class="nugget menuActiveSidebar" href="./index.html">Game
+              <i class="fa fa-gavel rightFloat"></i>
+            </a>
+            <a class="dashboard" href="./playerDetails.html">Player Details
+              <i class="fa fa-users rightFloat"></i>
+            </a>
+            <a class="training" href="./monthlyTarget.html">Monthly Target
+              <i class="fa fa-file-o rightFloat"></i>
+            </a>
+            <a class="batch" href="./weeklyActuals.html">Weekly Actual
+              <i class="fa fa-file-text rightFloat"></i>
+            </a>
+            <a class="download" href="./downloadDetails.html">Details
+              <i class="fa fa-download rightFloat"></i>
+            </a>
+            <a class="update" href="./updateDetails.html">Update Details
+              <i class="fa fa-wrench rightFloat" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
-      </aside>
+      </div>
+    </aside>
 
     <section class="wrapper">
       <div class="container col-sm-12" style="min-height:550px">
@@ -149,8 +151,63 @@
 
         <br/>
 
-        <div class="col-sm-12" style="margin-top:-2%;margin-bottom:5%">
+        <div class="col-sm-12">
+          <div class="col-sm-12">
+            <form class="form-horizontal" role="form">
+              <div class="input-group" id="adv-search">
+                <input type="text" class="form-control" placeholder="Search filters..." />
+                <div class="input-group-btn" style="position:unset">
+                  <div class="btn-group" role="group" style="position:unset">
+                    <div class="dropdown dropdown-lg">
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <span class="caret"></span>
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" role="menu">
 
+                        <div class="col-sm-12" style="margin-bottom: 5%">
+                          <div class="col-sm-6">
+                            <strong>Variables</strong>
+                          </div>
+                          <div class="col-sm-5">
+                            <strong>Value</strong>
+                          </div>
+                          <div class="col-sm-1" style="text-align:right">
+                            <button type="button" class="btn btn-info" style="border-radius:10%">
+                              <i class="fa fa-plus" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                        </div>
+                        <br/>
+
+                        <div class="col-sm-12">
+                          <div class="col-sm-6 form-group">
+                            <select class="form-control">
+                              <option selected disabled>Select Profile Variables</option>
+                              <option value="Profile variable 1">Profile variable 1</option>
+                            </select>
+                          </div>
+                          <div class="col-sm-5 form-group">
+                            <input type="text" class="form-control" placeholder="Enter here..." />
+                          </div>
+                          <div class="col-sm-1">
+                            <i class="fa fa-trash-o fa-2x" style="color:red;"></i>
+                          </div>
+                        </div>
+
+                        <br/>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-sm-12" style="margin-top:2%;margin-bottom:5%">
           <div class="col-sm-3 animated pulse">
             <div class="game game-lg game-subheader">
               <strong>Profile Varibles</strong>
@@ -214,70 +271,10 @@
               </select>
             </div>
           </div>
-
         </div>
 
-        <div class="col-sm-12" style="margin-top:11%">
-          <div class="col-sm-12">
-            <form class="form-horizontal" role="form">
-              <div class="input-group" id="adv-search">
-                <input type="text" class="form-control" placeholder="Search filters..." />
-                <div class="input-group-btn" style="position:unset">
-                  <div class="btn-group" role="group" style="position:unset">
-                    <div class="dropdown dropdown-lg">
-                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                        <span class="caret"></span>
-                      </button>
-                      <div class="dropdown-menu dropdown-menu-right" role="menu">
-
-                        <div class="col-sm-12" style="margin-bottom: 5%">
-                          <div class="col-sm-6">
-                            <strong>Variables</strong>
-                          </div>
-                          <div class="col-sm-5">
-                            <strong>Value</strong>
-                          </div>
-                          <div class="col-sm-1" style="text-align:right">
-                            <button type="button" class="btn btn-info" style="border-radius:10%">
-                              <i class="fa fa-plus" aria-hidden="true"></i>
-                            </button>
-                          </div>
-                        </div>
-                        <br/>
-
-                        <div class="col-sm-12">
-                          <div class="col-sm-6 form-group">
-                            <select class="form-control">
-                              <option selected disabled>Select Profile Variables</option>
-                              <option value="Profile variable 1">Profile variable 1</option>
-                            </select>
-                          </div>
-                          <div class="col-sm-5 form-group">
-                            <input type="text" class="form-control" placeholder="Enter here..." />
-                          </div>
-                          <div class="col-sm-1">
-                            <i class="fa fa-trash-o fa-2x" style="color:red;"></i>
-                          </div>
-                        </div>
-
-                        <br/>
-                      </div>
-                    </div>
-                    <button type="button" class="btn btn-primary">
-                      <i class="fa fa-search" aria-hidden="true"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-
-        <div class="col-sm-6" style="margin-top:5%;text-align:center">
+        <div class="col-sm-12" style="margin-top:10%;text-align:center">
           <button type="button" class="animated bounce  btn btn-info" id="createGame">Display Details</button>
-        </div>
-        <div class="col-sm-6" style="margin-top:5%;text-align:center">
-          <button type="button" class="animated bounce  btn btn-info" id="createGame">Update Details</button>
         </div>
 
         <div class="col-sm-offset-1 col-sm-10 col-sm-offset-1" style="margin-top:2%;text-align:center">

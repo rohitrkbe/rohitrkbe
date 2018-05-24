@@ -147,6 +147,10 @@ input:focus, textarea:focus {
   border-radius: 10px;
 }
 
+.width80 {
+  width: 80%;
+}
+
 .sidenav a {
   position: fixed;
   margin-top: 5.8%;
@@ -159,6 +163,7 @@ input:focus, textarea:focus {
   color: #000;
   border-radius: 0 5px 5px 0;
   background-color: #F9E79F;
+  z-index: 9999;
 }
 
 .sidenav a:hover {
@@ -169,6 +174,10 @@ input:focus, textarea:focus {
   top: 20px;
 }
 
+.dashboard {
+  top: 80px;
+}
+
 .training {
   top: 140px;
 }
@@ -177,12 +186,12 @@ input:focus, textarea:focus {
   top: 200px;
 }
 
-.dashboard {
-  top: 80px;
-}
-
 .download {
   top: 260px;
+}
+
+.update {
+  top: 320px;
 }
 
 .menuActiveSidebar {
