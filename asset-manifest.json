@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/rohitrkbe/static/css/main.ad4b2a70.chunk.css",
-    "main.js": "/rohitrkbe/static/js/main.47576e70.chunk.js",
-    "main.js.map": "/rohitrkbe/static/js/main.47576e70.chunk.js.map",
+    "main.css": "/rohitrkbe/static/css/main.86e7b15e.chunk.css",
+    "main.js": "/rohitrkbe/static/js/main.7f2d1585.chunk.js",
+    "main.js.map": "/rohitrkbe/static/js/main.7f2d1585.chunk.js.map",
     "runtime-main.js": "/rohitrkbe/static/js/runtime-main.f3c0d7e0.js",
     "runtime-main.js.map": "/rohitrkbe/static/js/runtime-main.f3c0d7e0.js.map",
-    "static/js/2.ed5f2231.chunk.js": "/rohitrkbe/static/js/2.ed5f2231.chunk.js",
-    "static/js/2.ed5f2231.chunk.js.map": "/rohitrkbe/static/js/2.ed5f2231.chunk.js.map",
+    "static/js/2.3dbc268d.chunk.js": "/rohitrkbe/static/js/2.3dbc268d.chunk.js",
+    "static/js/2.3dbc268d.chunk.js.map": "/rohitrkbe/static/js/2.3dbc268d.chunk.js.map",
     "index.html": "/rohitrkbe/index.html",
-    "precache-manifest.580d443546cc2a855190907fe3520192.js": "/rohitrkbe/precache-manifest.580d443546cc2a855190907fe3520192.js",
+    "precache-manifest.b19ed607417ffbecabd73031cd948333.js": "/rohitrkbe/precache-manifest.b19ed607417ffbecabd73031cd948333.js",
     "service-worker.js": "/rohitrkbe/service-worker.js",
-    "static/css/main.ad4b2a70.chunk.css.map": "/rohitrkbe/static/css/main.ad4b2a70.chunk.css.map",
-    "static/js/2.ed5f2231.chunk.js.LICENSE.txt": "/rohitrkbe/static/js/2.ed5f2231.chunk.js.LICENSE.txt",
+    "static/css/main.86e7b15e.chunk.css.map": "/rohitrkbe/static/css/main.86e7b15e.chunk.css.map",
+    "static/js/2.3dbc268d.chunk.js.LICENSE.txt": "/rohitrkbe/static/js/2.3dbc268d.chunk.js.LICENSE.txt",
     "static/media/argon-react-white.png": "/rohitrkbe/static/media/argon-react-white.275a2629.png",
     "static/media/argon-react.png": "/rohitrkbe/static/media/argon-react.f38ddea9.png",
     "static/media/creativetim-white-slim.png": "/rohitrkbe/static/media/creativetim-white-slim.f7cb2d39.png",
+    "static/media/delashare.png": "/rohitrkbe/static/media/delashare.d53274e9.png",
+    "static/media/eloelo.png": "/rohitrkbe/static/media/eloelo.cd8f699e.png",
     "static/media/font-awesome.min.css": "/rohitrkbe/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/github.svg": "/rohitrkbe/static/media/github.4ffd4fe7.svg",
     "static/media/google.svg": "/rohitrkbe/static/media/google.87be59a1.svg",
@@ -32,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f3c0d7e0.js",
-    "static/js/2.ed5f2231.chunk.js",
-    "static/css/main.ad4b2a70.chunk.css",
-    "static/js/main.47576e70.chunk.js"
+    "static/js/2.3dbc268d.chunk.js",
+    "static/css/main.86e7b15e.chunk.css",
+    "static/js/main.7f2d1585.chunk.js"
   ]
 }
