@@ -213,20 +213,6 @@ class Profile extends React.Component {
                       <p></p>
                     </div>
                   </div>
-                  {/* <div className="mt-5 py-5 border-top text-center">
-                    <Row className="justify-content-center">
-                      <Col lg="9">
-                        <p>write here about me</p>
-                      </Col>
-                    </Row>
-                  </div> */}
-                  {/* <div className=" mt-5 py-5 border-top text-center">
-                    <Row className="justify-content-center">
-                      <Col lg="9">
-                        <h3 className="text-center">Under Construction</h3>
-                      </Col>
-                    </Row>
-                  </div> */}
                 </div>
               </Card>
             </Container>
@@ -438,11 +424,27 @@ class Profile extends React.Component {
 
             <Container className=" mt-5">
               <Card className="bg-gradient-default shadow-lg border-0">
-                <div className="p-5">
-                  <Row className="align-items-center">
-                    <Col lg="12">
+                <div className="p-3">
+                  <Row
+                    className="align-items-center"
+                    style={{ justifyContent: "center" }}
+                  >
+                    <Col lg="11">
+                      <h3 className="text-white">
+                        "Art asks questions. Design creates solutions"
+                      </h3>
                       <p className="lead text-white mt-3">
-                        More about my interest on FE + Design part for a product
+                        Art and design share the same fundamental visual
+                        principles. Colour, shape, line, balance, contrast,
+                        rhythm, etc. I always believe that these two cannot be
+                        same.
+                        <br />
+                        Art can express the viewpoint of the artist, ask social
+                        or political questions, or exists only for the purpose
+                        of adding beauty to its environment. Design doesn’t have
+                        this luxury. Design always has a specific purpose. It
+                        must achieve a goal, and if it doesn’t, it’s judged to
+                        be bad design.
                       </p>
                     </Col>
                   </Row>
