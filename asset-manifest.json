@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/rohitrkbe/static/css/main.86e7b15e.chunk.css",
-    "main.js": "/rohitrkbe/static/js/main.7f2d1585.chunk.js",
-    "main.js.map": "/rohitrkbe/static/js/main.7f2d1585.chunk.js.map",
+    "main.js": "/rohitrkbe/static/js/main.5442f43a.chunk.js",
+    "main.js.map": "/rohitrkbe/static/js/main.5442f43a.chunk.js.map",
     "runtime-main.js": "/rohitrkbe/static/js/runtime-main.f3c0d7e0.js",
     "runtime-main.js.map": "/rohitrkbe/static/js/runtime-main.f3c0d7e0.js.map",
-    "static/js/2.3dbc268d.chunk.js": "/rohitrkbe/static/js/2.3dbc268d.chunk.js",
-    "static/js/2.3dbc268d.chunk.js.map": "/rohitrkbe/static/js/2.3dbc268d.chunk.js.map",
+    "static/js/2.fe12679d.chunk.js": "/rohitrkbe/static/js/2.fe12679d.chunk.js",
+    "static/js/2.fe12679d.chunk.js.map": "/rohitrkbe/static/js/2.fe12679d.chunk.js.map",
     "index.html": "/rohitrkbe/index.html",
-    "precache-manifest.b19ed607417ffbecabd73031cd948333.js": "/rohitrkbe/precache-manifest.b19ed607417ffbecabd73031cd948333.js",
+    "precache-manifest.0196469a75bd6fd608b213ab134c1498.js": "/rohitrkbe/precache-manifest.0196469a75bd6fd608b213ab134c1498.js",
     "service-worker.js": "/rohitrkbe/service-worker.js",
     "static/css/main.86e7b15e.chunk.css.map": "/rohitrkbe/static/css/main.86e7b15e.chunk.css.map",
-    "static/js/2.3dbc268d.chunk.js.LICENSE.txt": "/rohitrkbe/static/js/2.3dbc268d.chunk.js.LICENSE.txt",
+    "static/js/2.fe12679d.chunk.js.LICENSE.txt": "/rohitrkbe/static/js/2.fe12679d.chunk.js.LICENSE.txt",
     "static/media/argon-react-white.png": "/rohitrkbe/static/media/argon-react-white.275a2629.png",
     "static/media/argon-react.png": "/rohitrkbe/static/media/argon-react.f38ddea9.png",
     "static/media/creativetim-white-slim.png": "/rohitrkbe/static/media/creativetim-white-slim.f7cb2d39.png",
-    "static/media/delashare.png": "/rohitrkbe/static/media/delashare.d53274e9.png",
+    "static/media/delashare.png": "/rohitrkbe/static/media/delashare.1b3d3d7e.png",
     "static/media/eloelo.png": "/rohitrkbe/static/media/eloelo.cd8f699e.png",
     "static/media/font-awesome.min.css": "/rohitrkbe/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/github.svg": "/rohitrkbe/static/media/github.4ffd4fe7.svg",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f3c0d7e0.js",
-    "static/js/2.3dbc268d.chunk.js",
+    "static/js/2.fe12679d.chunk.js",
     "static/css/main.86e7b15e.chunk.css",
-    "static/js/main.7f2d1585.chunk.js"
+    "static/js/main.5442f43a.chunk.js"
   ]
 }
